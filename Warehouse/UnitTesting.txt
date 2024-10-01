@@ -1,0 +1,27 @@
+Script started on 2024-10-01 00:50:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="118" LINES="14"]
+[0;32m@ColinTormanen [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ javac ListTester.java 
+[0;32m@ColinTormanen [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ javaLi[K[K ListTester 
+Testing the insert and display methods:
+All items currently in the list:
+Product Name: Laptop, Product Id: 1, Product Price: 150.0, Product Quantity: 1
+Product Name: Apple, Product Id: 2, Product Price: 5.0, Product Quantity: 1
+Product Name: Fridge, Product Id: 3, Product Price: 2000.0, Product Quantity: 1
+
+Testing the contains method:
+Product Name: Laptop, Product Id: 1, Product Price: 150.0, Product Quantity: 1 exists in the list
+Product Name: Apple, Product Id: 2, Product Price: 5.0, Product Quantity: 1 exists in the list
+[0;32m@ColinTormanen [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ javac WishlistTester.java 
+[0;32m@ColinTormanen [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ java Wishlist
+Error: Main method not found in class Wishlist, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+[0;32m@ColinTormanen [1;31m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ java WishlistTester 
+Testing the insert and display methods:
+All items currently in the list:
+Product Name: Laptop, Product Id: 1, Product Price: 150.0, Product Quantity: 1
+Product Name: Apple, Product Id: 2, Product Price: 5.0, Product Quantity: 1
+Product Name: Fridge, Product Id: 3, Product Price: 2000.0, Product Quantity: 1
+[0;32m@ColinTormanen [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-ColinTormanen/Warehouse [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-01 00:50:42+00:00 [COMMAND_EXIT_CODE="0"]

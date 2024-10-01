@@ -1,4 +1,5 @@
 import java.io.Serializable;
+import java.util.*;
 
 public class Client implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -11,6 +12,7 @@ public class Client implements Serializable {
     public Client(String clientName) {
         this.clientName = clientName;
         this.clientId = CLIENT_STRING + ClientIdServer.instance().getId(); // Generating unique client ID
+        this.wishlist = new Wishlist();
     }
 
     // Getter for client name
@@ -42,7 +44,7 @@ public class Client implements Serializable {
         return wishlist.insertProduct(product);
     }
 
-    public Iterator getProductsInWishlist() {
+    public Iterator getWishlist() {
         return wishlist.getProducts();
     }
 }

@@ -3,20 +3,25 @@ import java.util.*;
 
 public class Wishlist {
 
+    // Linked list to hold the wishlist
     private List list = new LinkedList();
 
+    // Default constructor
     public Wishlist() {
     }
 
+    // Insert a product into the wishlist
     public boolean insertProduct(Product product) {
         list.add(product);
         return true;
     }
 
+    // Return an iterator to traverse the list
     public Iterator getProducts() {
         return list.iterator();
     }
 
+    // Returns the list to string
     public String toString(){
         return list.toString();
     }
